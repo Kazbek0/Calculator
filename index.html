@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calclulator</title>
+    <script src="./main.js"></script>  
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+
+        <div class="main_show">
+            <button class="main_result" onclick=result()><p class="num-text">=</p></button>
+                <input class="input1" type="text" id="input1" maxlength="1" ></input>
+                <input class="input2" type="text" id="input2" maxlength="10" > 
+        </div>
+
+        <div class="func">
+
+            <div class="func_num">
+                
+
+                <div class="func_num_block1">
+                    <button class="num" onclick='one()'><p class="num-text">1</p></button>
+                    <button class="num" onclick='two()'><p class="num-text">2</p></button>
+                    <button class="num" onclick='three()'><p class="num-text">3</p></button>
+                    <button class="num" onclick='plus()'><p class="num-text">+</p></button>
+                </div>
+
+                <div class="func_num_block2">
+                    <button class="num" onclick='four()'><p class="num-text">4</p></button>
+                    <button class="num" onclick='five()'><p class="num-text">5</p></button>
+                    <button class="num" onclick='six()'><p class="num-text">6</p></button>
+                    <button class="num" onclick='minus()'><p class="num-text">-</p></button>
+                </div>
+          
+                <div class="func_num_block3">
+                    <button class="num" onclick='seven()'><p class="num-text">7</p></button>
+                    <button class="num" onclick='eight()'><p class="num-text">8</p></button>
+                    <button class="num" onclick='nine()'><p class="num-text">9</p></button>
+                    <button class="num" onclick='mult()'><p class="num-text">x</p></button>
+                </div>
+
+                <div class="func_num_block4">
+                    <button class="num" onclick='zero()'><p class="num-text">0</p></button>
+                    <button class="num" onclick='c()'><p class="num-text">C</p></button>
+                    <button class="num" onclick='ca()'><p class="num-text">CA</p></button>
+                    <button class="num" onclick='divis()'><p class="num-text">÷</p></button>
+                </div>
+
+            </div>
+
+        </div>
+        
+    </div>
+</body>
+</html>

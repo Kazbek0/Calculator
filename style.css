@@ -1,0 +1,48 @@
+body{background: #E5E5E5;width: 100%;}
+
+.main{width:95%; height:500px;border-radius: 25px;margin-top: 3%;margin-left: 20%;}
+.main_show{width: 450px;height: 200px;background-color: rgb(255, 255, 255);border-radius: 15px;}
+
+.func{display: grid;width: 450px;height: 400px; background-color: #6396C5;border-radius: 10px;}
+
+
+.func_num_block1{display: flex;}
+.func_num_block2{display: flex;}
+.func_num_block3{display: flex;}
+.func_num_block4{display: flex;}
+
+.num{width:70px;height: 70px;text-align: center; background-color: aliceblue;border-radius: 50px;margin-left: 34px;margin-top:26px;}
+
+.num-text{font-weight: 600;font-size: 26px; line-height: 39px;color: #373737;margin-top: 6px;font-family: 'Poppins';}
+
+.input1{width: 50px;height: 30px;float: right;margin-right: 20px;margin-top: 20px;border: none;font-size: 50px;line-height: 50px;}
+
+.input2{
+    height: 40px;width: 420px;border: none;margin-top: 75px;font-size: 50px;line-height: 50px;
+    font-weight: 600;text-align: end;float: right;margin-right: 10px;
+} 
+
+  
+.func_num_block5{
+    background-color: #6396C0;display: grid;float: right;margin-top: 0;
+}
+
+.main_result{margin-top:10px;position: absolute;margin-left: 5px;border: none;width: 50px;height: 50px;font-weight: 700;}
+.maim_result:active{background-color: #ff0000;}
+
+ @media screen  and (max-width: 425px) {
+    body{width: 99%;margin-left: 0;}
+    .main{margin-left: 1%;width: 99%;}
+    .main_show{width: 99%;}
+    .input2{width: 90%;}
+    .func{width: 99%;}
+    .num{width: 65px;height: 65px;}
+ }
+
+ @media screen and (max-width:375px)  {
+    .num{width: 60px;height: 60px;margin-left: 25px;}
+ }
+
+ @media screen and (max-width:320px) {
+    .num{margin-left: 18px;width: 57px;height: 57px;}
+ }
